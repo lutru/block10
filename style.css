@@ -32,21 +32,21 @@
     border-radius: 50%;
     position: absolute;
     z-index: 2;
-    width: 25px;
-    height: 25px;
+    width: 4vw;
+    height: 4vw;
 }
 
 .one {
-    width: 70px;
-    height: 70px;
+    width: 9vw;
+    height: 9vw;
     background-color: #ffde59;
     left: 20%;
     top: 3%;
 }
 
 .two {
-    width: 70px;
-    height: 70px;
+    width: 9vw;
+    height: 9vw;
     background-color: #ff8888;
     left: 30%;
     top: 13%;
@@ -84,19 +84,19 @@
 }
 
 .first {
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
+    border-left: 20vw solid transparent;
+    border-right: 20vw solid transparent;
     border-bottom: 450px solid #008037;
-    top: 11.2%;
-    left: 52.5%;
+    top: 11.0%;
+    left: 51%;
 }
 
 .second {
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
+    border-left: 15vw solid transparent;
+    border-right: 15vw solid transparent;
     border-bottom: 300px solid #c9e265;
-    top: 38.9%;
-    left: 75%;
+    top: 38.8%;
+    left: 68%;
 }
 
 .form {
