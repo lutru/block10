@@ -1,0 +1,126 @@
+#blocks {
+    position: relative;
+}
+
+#top {
+    display: flex;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#top > div {
+    background-color: #03989e;
+    flex: 1;
+}
+
+#top > div:nth-child(2) {
+    margin: 0 10px;
+}
+
+#middle {
+    height: 400px;
+    background-color: #03989e;
+}
+
+#bottom {
+    height: 20px;
+    background-color: #c9e265;
+    margin-top: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+}
+
+.one {
+    width: 70px;
+    height: 70px;
+    background-color: #ffde59;
+    left: 20%;
+    top: 3%;
+}
+
+.two {
+    width: 70px;
+    height: 70px;
+    background-color: #ff8888;
+    left: 30%;
+    top: 13%;
+}
+
+.three {
+    background-color: #ff8888;
+    left: 5%;
+    top: 1%;
+}
+
+.four {
+    background-color: #ff8888;
+    left: 5%;
+    top: 15%;
+}
+
+.five {
+    background-color: #ff8888;
+    left: 40%;
+    top: 4%;
+}
+
+.six {
+    background-color: #ffde59;
+    left: 18%;
+    top: 26%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    z-index: 3;
+    position: absolute;
+}
+
+.first {
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 450px solid #008037;
+    top: 11.2%;
+    left: 52.5%;
+}
+
+.second {
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid #c9e265;
+    top: 38.9%;
+    left: 75%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.input {
+    margin: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+.submit {
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: #ff8888;
+    align-self: center;
+    width: 50%;
+}
